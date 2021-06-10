@@ -1,6 +1,12 @@
-nav  {
+nav li {
     background-color: #e07a5f;
-    border: 1px black solid;
+    border: 4px black solid;
+    border-radius:  110px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
 }
 h2 {
     border: 3px black solid;
@@ -10,7 +16,7 @@ h2 {
     font-size: 30px;
     padding: 10px;
 }
-.tag {
+img {
     width: 250px;
     height: 200px;
     border-radius: 30px;
@@ -28,15 +34,7 @@ h2 {
 section {
     background-color: slateblue;
 }
-ul,ol,li {
-    font-weight: bold;
-}
-.opt {
-    width: 200px;
-    height: 100px;
-    margin-left: 1000px;
-}
-.wat {
+.two {
     background-color: #e85d04;
     border: 5px black solid;
     border-radius: 30px;
@@ -48,7 +46,7 @@ ul,ol,li {
     color:#7b2cbf;
     font-weight: 700;
 }
-.wot {
+.three {
     width: 290px;
     height: 280px;
     border:5px crimson solid;
@@ -63,5 +61,5 @@ div::first-line{
      color:white;
 }
 body {
-    background-color: #ee9b00;
+    background-color: #e2afff;
 }
