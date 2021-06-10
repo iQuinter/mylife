@@ -5,8 +5,14 @@ nav li {
     text-align: center;
 }
 h1 {
-    text-align: center;
-    font-weight: bolder;
+    text-align: left;
+    font-weight: bolder
+}
+.one {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    background-color: brown;
 }
 h2 {
     border: 3px black solid;
@@ -22,14 +28,6 @@ img {
     border-radius: 30px;
     display:inline-block;
     margin: 5px;
-}
-.diff {
-    background-color: crimson;
-    border:3px teal solid;
-    color: white;
-    text-align: center;
-    font-weight: bolder;
-    padding: 20px;
 }
 section {
     background-color: slateblue;
